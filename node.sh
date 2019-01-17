@@ -61,7 +61,7 @@ node_install_start(){
 	cd /root
 	yum -y install python-setuptools
 	easy_install pip
-	git clone -b manyuser https://github.com/esdeathlove/shadowsocks.git "/root/shadowsocks"
+	git clone -b manyuser https://github.com/NimaQu/shadowsocks.git "/root/shadowsocks"
 	cd shadowsocks
 	pip install -r requirements.txt
 	cp apiconfig.py userapiconfig.py
